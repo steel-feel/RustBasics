@@ -4,11 +4,17 @@ Learn rust basics 🦀
 Learning rust via [Learn by examples](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 
 [x] Hello World
+
 [] Primitives
+
 [] Custom Types
+
 [] Variable Bindings
+
 [] Types
+
 [] Conversion
+
 [] Expressions
 [] Flow of Control
 [] Functions
