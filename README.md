@@ -5,34 +5,34 @@ Learning rust via [Learn by examples](https://doc.rust-lang.org/stable/rust-by-e
 
 - [x] Hello World
 
-[] Primitives
+[ ] Primitives
 
-[] Custom Types
+[ ] Custom Types
 
-[] Variable Bindings
+[ ] Variable Bindings
 
-[] Types
+[ ] Types
 
-[] Conversion
+[ ] Conversion
 
-[] Expressions
-[] Flow of Control
-[] Functions
-[] Modules
-[] Crates
-[] Cargo
-[] Attributes
-[] Generics
-[] Scoping rules
-[] Traits
-[] macro_rules!
-[] Error handling
-[] Std library types
-[] Std misc
-[] Testing
-[] Unsafe Operations
-[] Compatibility
-[] Meta
+[ ] Expressions
+[ ] Flow of Control
+[ ] Functions
+[ ] Modules
+[ ] Crates
+[ ] Cargo
+[ ] Attributes
+[ ] Generics
+[ ] Scoping rules
+[ ] Traits
+[ ] macro_rules!
+[ ] Error handling
+[ ] Std library types
+[ ] Std misc
+[ ] Testing
+[ ] Unsafe Operations
+[ ] Compatibility
+[ ] Meta
 
 Additionals
 
