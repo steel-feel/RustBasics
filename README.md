@@ -3,7 +3,7 @@ Learn rust basics 🦀
 
 Learning rust via [Learn by examples](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 
-[x] Hello World
+- [x] Hello World
 
 [] Primitives
 
