@@ -62,6 +62,12 @@ impl fmt::Display for List{
 
         write!(f, "[")?;
 
+        /*
+        iter is a method that returns each element in a collection and
+        that enumerate wraps the result of iter 
+        and returns each element as part of a tuple instead.
+        */
+
         for (count,v) in vec.iter().enumerate() {
 
             if count != 0 {  
