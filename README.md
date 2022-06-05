@@ -6,7 +6,7 @@ Learning rust via [Learn by examples](https://doc.rust-lang.org/stable/rust-by-e
 ## Content
 
 - [x] Hello World
-- [ ] Primitives
+- [x] Primitives
 - [ ] Custom Types
 - [ ] Variable Bindings
 - [ ] Types
