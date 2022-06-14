@@ -11,6 +11,24 @@ struct Point {
     y: f32,
 }
 
+
+enum Colors {
+    red,
+    green,
+    yellow
+}
+
+
+fn tell_a_fruit(color: Colors) -> String {
+    
+    match color {
+        Colors::red => return "Apple".to_string(),
+        Colors::green => return "Watermelon".to_string(),
+        Colors::yellow => return "Mango".to_string(),
+    }
+}
+
+
 // Structs can be reused as fields of another struct
 #[derive(Debug)]
 struct Rectangle {
@@ -20,20 +38,19 @@ struct Rectangle {
     bottom_right: Point,
 }
 
-
 fn main(){
 
     let t_left = Point{x:10f32, y : 20f32};
-    let    b_right =  Point{x: 20f32 ,y: 12f32};
-     let   rect = Rectangle{ top_left: t_left, bottom_right: b_right };
+    let b_right =  Point{x: 20f32 ,y: 12f32};
+    let rect = Rectangle{ top_left: t_left, bottom_right: b_right };
     
     rect_area(rect);  
     
     let square_point = Point{x:10.0,y:20.6};
 
-    print!("Square is {:?}", square(square_point,3.0))
+    println!("Square is {:?}", square(square_point,3.0));
 
-
+    println!("Red color fruit is {}", tell_a_fruit(Colors::red));
 
 }
 //1. Add a function rect_area which calculates the area of a Rectangle (try using nested destructuring).
@@ -52,6 +69,5 @@ fn rect_area(rect: Rectangle) {
 fn square(top_left : Point, side: f32) -> Rectangle {
     let Point{ x : top_left_x, y: top_left_y } = top_left;
     
-    let rect = Rectangle{  top_left : top_left, bottom_right: Point{ x : top_left_x + side, y: top_left_y - side } };
-    return rect;
+    Rectangle{  top_left : top_left, bottom_right: Point{ x : top_left_x + side, y: top_left_y - side } }
 }

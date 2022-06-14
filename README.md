@@ -7,7 +7,7 @@ Learning rust via [Learn by examples](https://doc.rust-lang.org/stable/rust-by-e
 
 - [x] Hello World
 - [x] Primitives
-- [ ] Custom Types
+- [x] Custom Types
 - [ ] Variable Bindings
 - [ ] Types
 - [ ] Conversion
