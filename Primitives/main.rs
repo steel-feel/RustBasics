@@ -32,14 +32,11 @@ which accepts a matrix as an argument,
 and returns a matrix in which two elements have been swapped
 */
 fn transpose (matrix: Matrix) -> Matrix {
-
-  let (a1,a2,b1,b2) = (matrix.0,matrix.1,matrix.2,matrix.3) ;
+   //Destructure matrix using let 
+  let Matrix(a1,a2,b1,b2) = matrix;
 
    Matrix(a1,b1,a2,b2)
 }
-
-
-
 
 
 fn main() {
@@ -60,5 +57,4 @@ fn main() {
 
        println!("slice values {}", slice_xs[0]);
    
-
 }
