@@ -13,12 +13,12 @@ Destructure could be used to extract values from complex objects
 
 - Tuple struct
 
-```
+```rust
 let Struct-Name(<new-varible> ,... ) = struct-instance
 ```
 - C Type struct 
 
-```
+```rust
 let Struct-Name{ <key> : <new-varible> , ...  } = struct-instance
 ```
 
@@ -31,7 +31,7 @@ Enum could be
 - tuple struct
 - c-type struct
 
-```
+```rust
 enum <enum-name> {
     <values>
 }
@@ -39,7 +39,7 @@ enum <enum-name> {
 
 Could be used with `match` which is similar to `switch` of other languages.
 
-```
+```rust
 match <enum-variable> {
     <values> => {
         <statements-block-scope>
@@ -50,7 +50,7 @@ match <enum-variable> {
 ### use
 The `use` declaration can be used so manual scoping isn't needed for values in enum
 
-```
+```rust
 use <enum-Name>::<value>
 
 //Value could be used without <enum-name::>
@@ -59,9 +59,10 @@ use <enum-Name>::<value>
 ### Implicit discriminator
 
 Enum values has implicit discriminator (starts at 0) (similar to solidity enum with is uint8). could be assigned manual values 
-```
-. . . .
+```rust
+enum some_enum {
 value = <literal-value>
+}
 
 ```
 
