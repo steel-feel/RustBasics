@@ -3,6 +3,24 @@ Learn rust basics 🦀
 
 Learning rust via [Learn by examples](https://doc.rust-lang.org/stable/rust-by-example/index.html)
 
+# Commands
+
+Generate _New_ Rust project using below command
+
+```bash
+cargo new <project-name> <options> 
+```
+_command options_
+
+- `--bin` for binary 
+- `--lib` for library project
+
+Run Project 
+
+```bash
+cargo run
+```
+
 ## Content
 
 - [x] Hello World
