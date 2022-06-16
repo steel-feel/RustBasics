@@ -26,8 +26,8 @@ cargo run
 - [x] Hello World
 - [x] Primitives
 - [x] Custom Types
-- [ ] Variable Bindings
-- [ ] Types
+- [x] Variable Bindings
+- [x] Types
 - [ ] Conversion
 - [ ] Expressions
 - [ ] Flow of Control
