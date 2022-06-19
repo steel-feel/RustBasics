@@ -28,8 +28,8 @@ cargo run
 - [x] Custom Types
 - [x] Variable Bindings
 - [x] Types
-- [ ] Conversion
-- [ ] Expressions
+- [x] Conversion
+- [x] Expressions
 - [ ] Flow of Control
 - [ ] Functions
 - [ ] Modules
