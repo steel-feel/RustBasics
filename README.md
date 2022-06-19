@@ -31,6 +31,11 @@ cargo run
 - [x] Conversion
 - [x] Expressions
 - [ ] Flow of Control
+    - [x] if-else
+    - [x] loop
+    - [x] while
+    - [x] for
+    - [ ] match 
 - [ ] Functions
 - [ ] Modules
 - [ ] Crates
