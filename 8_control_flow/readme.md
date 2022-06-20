@@ -81,9 +81,11 @@ let result = loop {
 
 ## for loops
 
-`for` construct could be used in two ways
-    - `a..b` : a (inclusive) to b (exclusive) in steps of 1
-    - `a..=b` : a and b inclusive 
+`for` construct could be used in two ways:
+
+- `a..b` : a (inclusive) to b (exclusive) in steps of 1
+    
+- `a..=b` : a and b inclusive 
 
 ```rust
 
@@ -104,6 +106,7 @@ let result = loop {
 
 Usage with iterators
 `for-in` construct is able to interact with an Iterator.
+
 `into_iter`, `iter` and `iter_mut` all handle the conversion of a collection into an iterator in different ways,
 
 > by default the `for` loop will apply the `into_iter` function to the collection
