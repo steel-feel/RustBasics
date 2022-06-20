@@ -55,9 +55,9 @@ fn while_fibonacci(nums:u16) {
 
 fn main() {
     //If-else example
-    // if_else('m');
+    if_else('m');
     //loop example
-    // println!( "last value {}", multiplicatio_table(2,10));
+     println!( "last value {}", multiplicatio_table(2,10));
     //while
     while_fibonacci(40);
 
