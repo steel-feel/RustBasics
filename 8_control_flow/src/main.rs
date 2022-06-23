@@ -93,14 +93,6 @@ fn check_word(s: &str,check_letter: char, skip: u32 )-> &str {
     
 }
 
-fn if_let(num : u16) {
-
-    if let number = num  {
-        println!("{}",num);
-    }
-
-}
-
 fn main() {
     //If-else example
   //  if_else('m');
@@ -116,6 +108,5 @@ fn main() {
 //     let letter = 'c' ;
 //    println!("Word containing \"{}\" is {}",letter,check_word(&s, letter ,0));
 
-//if - let
-    if_let(7);
+   
 }
