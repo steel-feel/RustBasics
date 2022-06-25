@@ -36,8 +36,8 @@ cargo run
     - [x] while
     - [x] for
     - [x] match
-- [ ] Functions
-- [ ] Modules
+- [x] Functions
+- [x] Modules
 - [ ] Crates
 - [ ] Cargo
 - [ ] Attributes
