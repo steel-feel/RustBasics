@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-crates = { path = '../11_crates', default-features = true }
+crates_cargo = { path = '../11_crates_cargo', default-features = true }

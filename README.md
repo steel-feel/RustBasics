@@ -1,4 +1,4 @@
-# RustBaiscs
+# RustBasics
 Learn rust basics 🦀 
 
 Learning rust via [Learn by examples](https://doc.rust-lang.org/stable/rust-by-example/index.html)
@@ -38,8 +38,8 @@ cargo run
     - [x] match
 - [x] Functions
 - [x] Modules
-- [ ] Crates
-- [ ] Cargo
+- [x] Crates
+- [x] Cargo
 - [ ] Attributes
 - [ ] Generics
 - [ ] Scoping rules
