@@ -22,6 +22,7 @@ Type inference engine is smart :sunglasses: . It does more than looking at the t
 The type statement can be used to give a new name to an existing type. Types must have UpperCamelCase names, or the compiler will raise a warning. 
 
 
+
 ```rust
 type color = u8;
 ```
