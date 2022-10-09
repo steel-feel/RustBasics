@@ -40,7 +40,7 @@ fn parse_csv_document(src: impl std::io::BufRead) -
 
 ```
 
-- as a return type
+### as a return type
 Similar to argument, we can sepecify to return a type which implements certain trait. 
 
 Very useful when need to return a closure

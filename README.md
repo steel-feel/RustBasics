@@ -41,10 +41,10 @@ cargo run
 - [x] Crates
 - [x] Cargo
 - [x] Generics
-- [ ] Scoping rules
-- [ ] Traits
+- [x] Scoping rules
+- [x] Traits
 - [ ] Attributes
-- [ ] macro_rules!
+- [x] macro_rules!
 - [ ] Error handling
 - [ ] Std library types
 - [ ] Std misc
