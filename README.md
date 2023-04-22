@@ -45,7 +45,7 @@ cargo run
 - [x] Traits
 - [ ] Attributes
 - [x] macro_rules!
-- [ ] Error handling
+- [x] Error handling
 - [ ] Std library types
 - [ ] Std misc
 - [ ] Testing
